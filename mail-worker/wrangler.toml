@@ -22,6 +22,9 @@ id = "2cb9c893c6dc40508d5a7f64c94bc229"					#kv数据库id
 #[[send_email]]
 #name = "email"			#CF发件, 配置后优先使用
 
+[[send_email]]
+name = "forward"		#站内转发到已验证的其他邮箱，不限制单个地址
+
 [ai]
 binding = "ai"
 
